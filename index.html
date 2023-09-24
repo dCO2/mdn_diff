@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      title pass
+    </title>
+    <script type="text/javascript" src="./index.js"></script>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div>
+      <form method="post" enctype="multipart/form-data">
+        <div>
+          <label for="image_uploads">Choose images to upload (PNG, JPG)</label>
+          <input
+            type="file"
+            id="image_uploads"
+            name="image_uploads"
+            accept=".jpg, .jpeg, .png"
+            multiple />
+        </div>
+        <div class="preview">
+          <p>No files currently selected for upload</p>
+        </div>
+        <div>
+          <button>Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
